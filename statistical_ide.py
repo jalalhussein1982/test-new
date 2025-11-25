@@ -2344,20 +2344,8 @@ def main():
     )
 
     # Custom CSS
-    st.markdown("""
-    <style>
-        .stExpander {
-            background-color: #f0f2f6;
-            border-radius: 10px;
-        }
-        .metric-container {
-            background-color: #ffffff;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-    </style>
-    """, unsafe_allow_html=True)
+    # Custom CSS removed to fix dark mode compatibility
+
 
     # Initialize session state
     init_session_state()
